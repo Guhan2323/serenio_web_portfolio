@@ -7,7 +7,7 @@
 body {
     background-image: url(../img/bg.jpg);
     background-attachment: fixed;
-    background-color: #000; /* Fallback background color */
+    background-color: #000; 
     color: white;
 }
 
@@ -55,26 +55,25 @@ nav {
     font-family: sans-serif;
 }
 
-/* Add these styles to your existing CSS */
+
 
 nav ul {
     display: flex;
     justify-content: center;
-    align-items: center; /* Center the navigation items vertically */
+    align-items: center;
 }
 
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px; /* Adjust the margin for spacing */
+    margin: 10px 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 18px; /* Adjust the font size */
-     /* Add bold style to the font */
-    transition: color 0.3s ease; /* Add a smooth color transition */
+    font-size: 18px; 
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
